@@ -2,10 +2,10 @@
 
 In this project, I develop adversarial search agent to play the Isolation game. Beside of helper class provide by Udacity, for example, Isolation game rules, Isolation Board setup, I implement following techniques in `game_agent.py` to develop an agent:
    
- 1. MinimaxPlayer.minimax(): implement minimax search
- 2. AlphaBetaPlayer.alphabeta(): implement minimax search with alpha-beta pruning
- 3. AlphaBetaPlayer.get_move(): implement iterative deepening search
- 4. custom_score(), custom_score_2(), custom_score_3(): implement my own alternate position evaluation heuristic
+ 1. `MinimaxPlayer.minimax()`: implement minimax search
+ 2. `AlphaBetaPlayer.alphabeta()`: implement minimax search with alpha-beta pruning
+ 3. `AlphaBetaPlayer.get_move()`: implement iterative deepening search
+ 4. `custom_score()`, `custom_score_2()`, `custom_score_3()`: implement my own alternate position evaluation heuristic
 
 Moreover, I also provide 2 analysis reports including:
 
